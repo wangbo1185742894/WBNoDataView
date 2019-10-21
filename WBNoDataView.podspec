@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WBNoDataView'
-  s.version          = '1.0.5'
+  s.version          = '1.0.7'
   s.summary          = 'tableView以及collectionView没数据默认图，支持自定义图片，自定义问题，设置图片大小'
   s.description      = <<-DESC
 TODO: "tableView以及collectionView没数据默认图，支持自定义图片，自定义问题，设置图片大小".
@@ -21,7 +21,7 @@ TODO: "tableView以及collectionView没数据默认图，支持自定义图片�
 
   #s.public_header_files = 'Pod/Classes/WBNoDataView/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'MJRefresh', '~> 3.1.0'
+  s.dependency 'MJRefresh'
 
   s.static_framework = true
 end
