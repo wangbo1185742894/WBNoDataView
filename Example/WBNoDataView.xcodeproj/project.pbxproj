@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		166DE5807DE7613CE8E67CE3 /* Pods_WBNoDataView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F01A612E7FC1C5B7E2ECBC8 /* Pods_WBNoDataView_Example.framework */; };
+		2DFD12DF235D960E008A082E /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD12D9235D960D008A082E /* MyTableViewController.m */; };
+		2DFD12E0235D960E008A082E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD12DC235D960E008A082E /* RootViewController.m */; };
+		2DFD12E1235D960E008A082E /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD12DD235D960E008A082E /* MyCollectionViewController.m */; };
+		2DFD12E2235D960E008A082E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD12DE235D960E008A082E /* RootViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WBAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WBViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +25,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DC38B1D17CFE2D51AAE5098B /* Pods_WBNoDataView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D0CB24AF4982CB299B05D0 /* Pods_WBNoDataView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +40,14 @@
 
 /* Begin PBXFileReference section */
 		1F01A612E7FC1C5B7E2ECBC8 /* Pods_WBNoDataView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBNoDataView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		329987BC238AD253E9E4595C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DFD12D8235D960D008A082E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2DFD12D9235D960D008A082E /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		2DFD12DA235D960D008A082E /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		2DFD12DB235D960E008A082E /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		2DFD12DC235D960E008A082E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2DFD12DD235D960E008A082E /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		2DFD12DE235D960E008A082E /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		329987BC238AD253E9E4595C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3467A822940AE074B7CAA6E3 /* Pods-WBNoDataView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBNoDataView_Tests.release.xcconfig"; path = "Target Support Files/Pods-WBNoDataView_Tests/Pods-WBNoDataView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WBNoDataView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBNoDataView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,8 +59,6 @@
 		6003F59B195388D20070C39A /* WBNoDataView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WBNoDataView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* WBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* WBNoDataView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBNoDataView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,10 +68,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63D0CB24AF4982CB299B05D0 /* Pods_WBNoDataView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBNoDataView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7EF91B4252A129F8DE3F565A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EF91B4252A129F8DE3F565A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA24E7536976ECE62281AEB1 /* Pods-WBNoDataView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBNoDataView_Example.debug.xcconfig"; path = "Target Support Files/Pods-WBNoDataView_Example/Pods-WBNoDataView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E0F288D3E1F4C236EFFDB319 /* WBNoDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WBNoDataView.podspec; path = ../WBNoDataView.podspec; sourceTree = "<group>"; };
+		E0F288D3E1F4C236EFFDB319 /* WBNoDataView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WBNoDataView.podspec; path = ../WBNoDataView.podspec; sourceTree = "<group>"; };
 		E6CC7B13C840E25C9F05C652 /* Pods-WBNoDataView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBNoDataView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WBNoDataView_Tests/Pods-WBNoDataView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC660C8D2A6054AA84B9E36C /* Pods-WBNoDataView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBNoDataView_Example.release.xcconfig"; path = "Target Support Files/Pods-WBNoDataView_Example/Pods-WBNoDataView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,6 @@
 				E6CC7B13C840E25C9F05C652 /* Pods-WBNoDataView_Tests.debug.xcconfig */,
 				3467A822940AE074B7CAA6E3 /* Pods-WBNoDataView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,10 +151,14 @@
 			children = (
 				6003F59C195388D20070C39A /* WBAppDelegate.h */,
 				6003F59D195388D20070C39A /* WBAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WBViewController.h */,
-				6003F5A6195388D20070C39A /* WBViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				2DFD12DB235D960E008A082E /* MyCollectionViewController.h */,
+				2DFD12DD235D960E008A082E /* MyCollectionViewController.m */,
+				2DFD12DA235D960D008A082E /* MyTableViewController.h */,
+				2DFD12D9235D960D008A082E /* MyTableViewController.m */,
+				2DFD12D8235D960D008A082E /* RootViewController.h */,
+				2DFD12DC235D960E008A082E /* RootViewController.m */,
+				2DFD12DE235D960E008A082E /* RootViewController.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,9 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2DFD12E2235D960E008A082E /* RootViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +374,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFD12DF235D960E008A082E /* MyTableViewController.m in Sources */,
+				2DFD12E1235D960E008A082E /* MyCollectionViewController.m in Sources */,
 				6003F59E195388D20070C39A /* WBAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* WBViewController.m in Sources */,
+				2DFD12E0235D960E008A082E /* RootViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,6 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
