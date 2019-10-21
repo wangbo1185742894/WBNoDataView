@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9ABFE67CE7498CF54A46E5BAD190337"
+               BlueprintIdentifier = "F6A999F461D8F9783346586E4B01FFE1"
                BuildableName = "WBNoDataView.framework"
                BlueprintName = "WBNoDataView"
                ReferencedContainer = "container:Pods.xcodeproj">

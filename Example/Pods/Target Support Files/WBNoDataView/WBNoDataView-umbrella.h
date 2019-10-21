@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "IWBNoDataViewProtocol.h"
+#import "UICollectionView+NoData.h"
+#import "UITableView+NoData.h"
+#import "UIView+Frame.h"
+#import "WBNoDataView.h"
 
 FOUNDATION_EXPORT double WBNoDataViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char WBNoDataViewVersionString[];

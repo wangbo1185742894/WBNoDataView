@@ -13,7 +13,7 @@
 #import "WBNoDataView.h"
 
 #import <objc/runtime.h>
-#import <MJRefresh.h>
+
 
 @implementation UICollectionView (NoData)
 

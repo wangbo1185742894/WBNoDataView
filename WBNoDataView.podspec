@@ -10,9 +10,8 @@ TODO: "tableView以及collectionView没数据默认图，支持自定义图片�
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangbo1185742894' => 'wangbo3919@163.com' }
   s.source           = { :git => 'https://github.com/wangbo1185742894/WBNoDataView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WBNoDataView/Classes/WBNoDataView/*'
   
@@ -20,7 +19,7 @@ TODO: "tableView以及collectionView没数据默认图，支持自定义图片�
   #   'WBNoDataView' => ['WBNoDataView/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/WBNoDataView/*.h'
+  #s.public_header_files = 'Pod/Classes/WBNoDataView/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'MJRefresh', '~> 3.1.0'
 

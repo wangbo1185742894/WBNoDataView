@@ -13,7 +13,7 @@
 #import "WBNoDataView.h"
 
 #import <objc/runtime.h>
-#import <MJRefresh.h>
+
 
 @implementation UITableView (NoData)
 
@@ -195,7 +195,7 @@ static NSString * const kXYTableViewPropertyInitFinish = @"kXYTableViewPropertyI
 //    NSLog(@"TableView + XY 视图正常销毁");
 }
 
-+(void)refreshHelperWithScrollView:(UIScrollView *)scrollView target:(id)target loadNewData:(SEL)loadNewData loadMoreData:(SEL)loadMoreData isBeginRefresh:(BOOL)beginRefreshing{
+-(void)refreshHelperWithTarget:(id)target loadNewData:(SEL)loadNewData loadMoreData:(SEL)loadMoreData isBeginRefresh:(BOOL)beginRefreshing{
     
     if (loadNewData) {
         
@@ -207,17 +207,17 @@ static NSString * const kXYTableViewPropertyInitFinish = @"kXYTableViewPropertyI
             [mj_header beginRefreshing];
         }
         
-        scrollView.mj_header = mj_header;
+        self.mj_header = mj_header;
     }
     if (loadMoreData) {
         
         MJRefreshBackNormalFooter *mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:target refreshingAction:loadMoreData ];
         mj_footer.automaticallyChangeAlpha = YES;
-        scrollView.mj_footer = mj_footer;
+        self.mj_footer = mj_footer;
     }
 }
 
--(void)tableViewEndRefreshCurPageCount:(NSInteger )count{
+-(void)tableViewViewEndRefreshCurPageCount:(NSInteger )count{
     [self.mj_header endRefreshing];
     if (count == KpageSize) {
         [self.mj_footer endRefreshing];
