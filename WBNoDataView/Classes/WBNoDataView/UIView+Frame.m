@@ -143,16 +143,4 @@
     self.frame = frame;
 }
 
-
-- (void)setFixedHeight:(NSNumber *)fixedHeight
-{
-    objc_setAssociatedObject(self, @selector(fixedHeight), fixedHeight, OBJC_ASSOCIATION_RETAIN);
-}
-
-- (void)setFixedWith:(NSNumber *)fixedWith
-{
-    objc_setAssociatedObject(self, @selector(fixedWith), fixedWith, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-
 @end

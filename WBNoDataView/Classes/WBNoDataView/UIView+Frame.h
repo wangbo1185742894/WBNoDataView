@@ -59,13 +59,5 @@
  */
 @property (nonatomic, assign) CGPoint origin;
 
-/**
- *
- */
-@property (nonatomic, strong) NSNumber *fixedHeight;
-/**
- *
- */
-@property (nonatomic, strong) NSNumber *fixedWith;
 
 @end
