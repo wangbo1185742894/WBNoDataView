@@ -1,6 +1,6 @@
 {
   "name": "WBNoDataView",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "tableView以及collectionView没数据默认图，支持自定义图片，自定义问题，设置图片大小",
   "description": "TODO: \"tableView以及collectionView没数据默认图，支持自定义图片，自定义问题，设置图片大小\".",
   "homepage": "https://github.com/wangbo1185742894/WBNoDataView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wangbo1185742894/WBNoDataView.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"

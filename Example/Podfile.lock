@@ -1,6 +1,6 @@
 PODS:
   - MJRefresh (3.1.17)
-  - WBNoDataView (1.0.2):
+  - WBNoDataView (1.0.3):
     - MJRefresh (~> 3.1.0)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
-  WBNoDataView: f2eda1ec29f94cb22f4e39a01a415200b2e0dbda
+  WBNoDataView: 2a902f672749f5ef334585c4c613f6c2b8f6c4e6
 
 PODFILE CHECKSUM: ac2ad0c7ef550a9e05a088f37bb37514deec3621
 
