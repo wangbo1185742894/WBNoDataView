@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WBNoDataView_Example' do
+  pod 'WBNoDataView', :path => '../'
+
+  target 'WBNoDataView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

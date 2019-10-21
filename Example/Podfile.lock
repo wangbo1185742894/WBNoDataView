@@ -1,0 +1,16 @@
+PODS:
+  - WBNoDataView (0.1.0)
+
+DEPENDENCIES:
+  - WBNoDataView (from `../`)
+
+EXTERNAL SOURCES:
+  WBNoDataView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBNoDataView: 5a5501dc367774646d157629c3cf279e3ef985ff
+
+PODFILE CHECKSUM: ac2ad0c7ef550a9e05a088f37bb37514deec3621
+
+COCOAPODS: 1.6.1

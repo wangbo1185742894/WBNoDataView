@@ -1,0 +1,6 @@
+framework module WBNoDataView {
+  umbrella header "WBNoDataView-umbrella.h"
+
+  export *
+  module * { export * }
+}
