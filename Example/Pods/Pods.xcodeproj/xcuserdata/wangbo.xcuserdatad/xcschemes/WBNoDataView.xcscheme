@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6A999F461D8F9783346586E4B01FFE1"
+               BlueprintIdentifier = "38C949547F110A8079DB3689ADFBC25C"
                BuildableName = "WBNoDataView.framework"
                BlueprintName = "WBNoDataView"
                ReferencedContainer = "container:Pods.xcodeproj">
