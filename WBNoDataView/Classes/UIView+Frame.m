@@ -32,22 +32,20 @@
 }
 
 - (void)setCenterX:(CGFloat)centerX {
-    
     CGPoint center = self.center;
     center.x = centerX;
     self.center = center;
-    
 }
 
 - (CGFloat)centerX {
     return self.center.x;
 }
 
-- (void)setCenterY:(CGFloat)centerY{
+- (void)setCenterY:(CGFloat)centerY {
     CGPoint center = self.center;
-    
+
     center.y = centerY;
-    
+
     self.center = center;
 }
 
@@ -94,50 +92,41 @@
 - (CGPoint)origin {
     return self.frame.origin;
 }
-- (CGFloat)top
-{
+- (CGFloat)top {
     return self.frame.origin.y;
 }
 
-- (void)setTop:(CGFloat)top
-{
+- (void)setTop:(CGFloat)top {
     CGRect frame = self.frame;
     frame.origin.y = top;
     self.frame = frame;
 }
 
-- (CGFloat)left
-{
+- (CGFloat)left {
     return self.frame.origin.x;
 }
 
-- (void)setLeft:(CGFloat)left
-{
+- (void)setLeft:(CGFloat)left {
     CGRect frame = self.frame;
     frame.origin.x = left;
     self.frame = frame;
 }
 
-
-- (CGFloat)bottom
-{
+- (CGFloat)bottom {
     return self.frame.size.height + self.frame.origin.y;
 }
 
-- (void)setBottom:(CGFloat)bottom
-{
+- (void)setBottom:(CGFloat)bottom {
     CGRect frame = self.frame;
     frame.origin.y = bottom - frame.size.height;
     self.frame = frame;
 }
 
-- (CGFloat)right
-{
+- (CGFloat)right {
     return self.frame.size.width + self.frame.origin.x;
 }
 
-- (void)setRight:(CGFloat)right
-{
+- (void)setRight:(CGFloat)right {
     CGRect frame = self.frame;
     frame.origin.x = right - frame.size.width;
     self.frame = frame;

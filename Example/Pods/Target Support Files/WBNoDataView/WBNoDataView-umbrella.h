@@ -14,6 +14,7 @@
 #import "UICollectionView+NoData.h"
 #import "UITableView+NoData.h"
 #import "UIView+Frame.h"
+#import "WBNoData.h"
 #import "WBNoDataView.h"
 
 FOUNDATION_EXPORT double WBNoDataViewVersionNumber;

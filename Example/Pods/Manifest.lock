@@ -1,13 +1,13 @@
 PODS:
   - MJRefresh (3.1.17)
-  - WBNoDataView (1.0.3):
-    - MJRefresh (~> 3.1.0)
+  - WBNoDataView (1.0.7):
+    - MJRefresh
 
 DEPENDENCIES:
   - WBNoDataView (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs:
     - MJRefresh
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
-  WBNoDataView: 2a902f672749f5ef334585c4c613f6c2b8f6c4e6
+  WBNoDataView: 3da3f0585299889fd7fb38514dc3dbcee94d9c4b
 
 PODFILE CHECKSUM: ac2ad0c7ef550a9e05a088f37bb37514deec3621
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3

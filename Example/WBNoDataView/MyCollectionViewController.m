@@ -8,9 +8,9 @@
 
 #import "MyCollectionViewController.h"
 
-#import <UICollectionView+NoData.h>
+#import "UICollectionView+NoData.h"
 
-#import <IWBNoDataViewProtocol.h>
+#import "IWBNoDataViewProtocol.h"
 
 @interface MyCollectionViewController ()<IViewNoData>
 

@@ -9,7 +9,7 @@
 #import "MyTableViewController.h"
 #import <UITableView+NoData.h>
 #import <IWBNoDataViewProtocol.h>
-@interface MyTableViewController ()<IViewNoData>
+@interface MyTableViewController ()<IViewNoData,UITableViewDelegate,UITableViewDataSource>
 
 @end
 

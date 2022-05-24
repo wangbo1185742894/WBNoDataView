@@ -13,7 +13,7 @@ TODO: "tableView以及collectionView没数据默认图，支持自定义图片�
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WBNoDataView/Classes/WBNoDataView/*'
+  s.source_files = 'WBNoDataView/Classes/*'
   
   # s.resource_bundles = {
   #   'WBNoDataView' => ['WBNoDataView/Assets/*.png']
